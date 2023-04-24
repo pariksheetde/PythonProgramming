@@ -4,15 +4,15 @@ print(result)
 
 age = 30
 result = age < 15 and age > 12
-print(result) # RETURNS FALSE AS 1 OF THE CONDITION IS FALSE
+print(result) # Returns False as of the condition is False
 
 age = 30
 result = age < 15 and age < 12
-print(result) # RETURNS FALSE AS 1 OF THE CONDITION IS FALSE
+print(result) # Returns False as of both the condition are False
 
 age = 30
 result = age > 15 and age > 12
-print(result) # RETURNS TRUE AS BOTH THE CONDITIONS ARE TRUE
+print(result) # Returns True as of the condition are True
 
 '''
 True & False = False
