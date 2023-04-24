@@ -19,3 +19,6 @@ cur.execute(drop_table)
 cur.execute(create_table)
 cur.execute(ins_rec)
 connection.commit()
+
+cur.close()
+connection.close()
