@@ -1,3 +1,16 @@
 my_name = "Monica"
-stmt = input("What's your name : ")
-print(f"Hello {stmt}. How are you doing?. My name is {my_name}")
+stmt = str(input("What's your name : "))
+print(f"Hello {stmt}. How are you doing?. Grretings from {my_name}")
+
+print("-------------------------------------------------------------------------------------------------------------------------------")
+
+my_number = int(input("Enter the number of your choice "))
+IS_MATCHING = 15
+if IS_MATCHING == my_number:
+    print(True)
+else:
+    print(False)
+    
+print("-------------------------------------------------------------------------------------------------------------------------------")
+
+
