@@ -15,8 +15,8 @@ result = age > 15 or age > 12
 print(result) # Returns True as both the conditions are True
 
 '''
-True & False = False
-False & True = False
-False & False = False
-True & True = True
+True or False = True
+False or True = False
+False or False = False
+True or True = True
 '''
