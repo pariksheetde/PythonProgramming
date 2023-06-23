@@ -9,5 +9,10 @@ class Sales():
         else:
             print("Targeted Sales has been missed")
             
+'''        
+Create object, obj_two for the class who can access all the attributes of the class Sales.
+Process of object creation is also known as object instantiation
+'''
+            
 obj_two = Sales()
 print(obj_two.hasAchivedSales())
