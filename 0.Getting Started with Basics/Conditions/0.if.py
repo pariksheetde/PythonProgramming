@@ -30,3 +30,20 @@ grade = "A" if marks >=45 else "B"
 print(grade)
 
 print("-------------------------------------------------------------------------------EOL-----------------------------------------------------------------------------")
+
+'''
+both age and marks are assigned to same memory address. So same memory address will have 2 objects, 
+age and marks. When one of the variable or both the variables are descoped, 
+those memory address will be later reused by python programming. 
+This is called reference counting. This process is taken care by python.
+'''
+
+import sys
+
+age = 10
+marks = age
+print(id(age))
+print(id(marks))
+
+print(sys.getrefcount(age))
+print(sys.getrefcount(marks))
