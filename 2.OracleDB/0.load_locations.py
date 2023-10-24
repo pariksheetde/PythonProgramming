@@ -1,3 +1,5 @@
+# THE CODE EXECUTES IN python 3.8.0
+
 import cx_Oracle
 
 print(type(cx_Oracle))
