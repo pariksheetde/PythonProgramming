@@ -10,5 +10,3 @@ try:
 except Exception as err:
     print("Error while connecting to Oracle DB...", err)
     
-
-    
