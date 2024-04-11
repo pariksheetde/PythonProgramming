@@ -8,13 +8,13 @@ import cx_Oracle
 def main():
     db = cx_Oracle.connect("HR/HRS@localhost:1521/XE")
     cur = db.cursor()
-    SQL_select = """select 
+    qry_dept = """SELECT 
                     d.department_id, 
                     d.department_name,
                     d.location_id
                     FROM 
                     departments d order by 1 asc"""
-    cur.execute(SQL_select)
+    cur.execute(qry_dept)
     row = cur.fetchall()
     print(row)
 
