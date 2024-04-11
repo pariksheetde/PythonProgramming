@@ -3,18 +3,18 @@
 # db-query.py as of 2021-04-07
 # runs on Python 3.8.0
 
-
 import cx_Oracle
 
 def main():
-    db = cx_Oracle.connect("HR/HR@localhost:1521/XE")
+    db = cx_Oracle.connect("HR/HRS@localhost:1521/XE")
     cur = db.cursor()
-    SQL_select = """select 
-                    e.employee_id, 
-                    e.first_name||' '||e.last_name as name
+    qry_dept = """SELECT 
+                    d.department_id, 
+                    d.department_name,
+                    d.location_id
                     FROM 
-                    employees e order by 1 asc"""
-    cur.execute(SQL_select)
+                    departments d order by 1 asc"""
+    cur.execute(qry_dept)
     row = cur.fetchall()
     print(row)
 
