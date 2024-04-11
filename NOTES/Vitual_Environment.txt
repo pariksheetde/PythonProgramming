@@ -6,4 +6,4 @@ py --list
 py --list-paths
 
 ## CREATE VIRTUAL ENVIRONMEMT
-python -m -venv esure [esue is the name of the virtual environment]
+python -m -venv esue [esue is the name of the virtual environment]
