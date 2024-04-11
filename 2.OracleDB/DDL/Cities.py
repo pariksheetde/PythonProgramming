@@ -3,11 +3,11 @@ import cx_Oracle
 print(type(cx_Oracle))
 
 
-connection = cx_Oracle.connect("Hr/Hr@localhost:1521/prod")
+connection = cx_Oracle.connect("HR/HRS@localhost:1521/XE")
 print(f"Connected to Oracle DB: Version {connection.version}")
 
 cur = connection.cursor()
-drop_table = """DROP TABLE HR.cities purge"""
+drop_table = """DROP TABLE HR.cities PURGE"""
 create_table = """CREATE TABLE HR.cities
         (
             city_id int primary key,
