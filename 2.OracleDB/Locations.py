@@ -12,7 +12,7 @@ def main():
                     l.location_id, 
                     l.location_name
                     FROM 
-                    locations l order by 1 asc"""
+                    locations l ORDER by 1 ASC"""
     cur.execute(qry_locs)
     row = cur.fetchall()
     print(row)
