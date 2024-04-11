@@ -5,5 +5,8 @@ python --version
 py --list
 py --list-paths
 
+## TO SPECIFY PARTICULAR VERSION
+py -3.9 --version [3.9 is the python version]
+
 ## CREATE VIRTUAL ENVIRONMEMT
 python -m -venv esue [esue is the name of the virtual environment]
