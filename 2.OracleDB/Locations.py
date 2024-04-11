@@ -6,7 +6,7 @@
 import cx_Oracle
 
 def main():
-    db = cx_Oracle.connect("HR/HR@localhost:1521/XE")
+    db = cx_Oracle.connect("HR/HRS@localhost:1521/XE")
     cur = db.cursor()
     qry_locs = """SELECT 
                     l.location_id, 
