@@ -40,3 +40,12 @@ for indx in marks:
 
 print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
 
+marks = [10, 20, 15, 25, 30, 35]
+marks.extend([77, 85, 97]) # extend method adds elements at the end of list
+print(marks)
+print(f'Sum of elements : {sum(marks)}')
+print(f'Max elements : {max(marks)}')
+print(f'Min elements : {min(marks)}')
+print(f'Sorted elements : {marks.sort()}')
+
+print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
