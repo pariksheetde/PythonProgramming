@@ -13,8 +13,22 @@ print("-------------------------------------------------------------------------
 
 marks = [10, 20, 15, 25, 30, 35]
 
-marks.insert(1, 11) # insert element 11 at 2nd index position
-print(marks)
+marks.insert(1, 11) # insert method adds the element at the specified index position
+print(f'After Insert :{marks}')
+
+print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
+
+marks = [10, 20, 15, 25, 30, 35]
+
+marks.remove(10) # remove method removes the specified element from the list
+print(f'After Remove :{marks}')
+
+print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
+
+marks = [10, 20, 15, 25, 30, 35]
+
+print(f'Element Deleted : {marks.pop()}')  # pop method by default removes the last element from the list
+print(f'After 2nd Pop : {marks.pop(2)}') # pop method can remove the element by specifying the index position
 
 print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
 
