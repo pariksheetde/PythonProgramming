@@ -13,7 +13,7 @@ def main():
                     d.department_name,
                     d.location_id
                     FROM 
-                    departments d order by 1 asc"""
+                    departments d ORDER by 1 ASC"""
     cur.execute(qry_dept)
     row = cur.fetchall()
     print(row)

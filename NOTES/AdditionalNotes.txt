@@ -10,3 +10,9 @@ py -3.9 --version [3.9 is the python version]
 
 ## CREATE VIRTUAL ENVIRONMEMT
 python -m venv igi [igi is the name of the virtual environment]
+
+## IDENTIFY THE LIST OF PYTHON PACKAGES INSTALLED
+pip list
+
+## pip below to install below python packages
+pip install -r requirements.txt

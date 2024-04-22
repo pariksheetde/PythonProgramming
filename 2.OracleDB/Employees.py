@@ -13,7 +13,7 @@ def main():
                     e.employee_id, 
                     e.first_name||' '||e.last_name as name
                     FROM 
-                    employees e order by 1 asc"""
+                    employees e ORDER by 1 ASC"""
     cur.execute(qry_emp)
     row = cur.fetchall()
     print(row)
