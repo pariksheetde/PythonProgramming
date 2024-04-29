@@ -1,6 +1,7 @@
 # Create a list og int type.
 # This list is homogeneous.
 # List can be homogeneous and hetrogeneous
+# List are mutable collection of ordered elements
 marks = [10, 20, 15, 25, 30, 35]
 print(marks)
 
