@@ -17,3 +17,12 @@ age = list(age)
 print(f'Converting tuple into list: {type(age)}')
 age[1] = 15
 print(f'After Change : {age}')
+
+print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
+
+# create a list and convert the list into tuple
+grade = [10, 11, 20, 22]
+grade = tuple(grade)
+print(f'Converting list into tuple: : {type(grade)}')
+grade[1] = 15
+print(f'After Change : {grade}')
