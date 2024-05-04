@@ -24,5 +24,16 @@ print("-------------------------------------------------------------------------
 grade = [10, 11, 20, 22]
 grade = tuple(grade)
 print(f'Converting list into tuple: : {type(grade)}')
-grade[1] = 15
-print(f'After Change : {grade}')
+
+print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
+
+alpha = ([1, 2], 30, 40)
+print(f'Type of alpha : {type(alpha)}')
+beta = list(alpha)
+print(f'Type of beta : {type(beta)}')
+beta[0][0] = 10
+beta[0][1] = 20
+print(f'After Change in List : {beta}')
+print(f'After Change in Tuple : {alpha}')
+
+print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
