@@ -11,3 +11,9 @@ print(f'First Element within the tuple : {age[0]}')
 
 print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
 
+# create a tuple and convert the tuple into list
+age = (10, 11, 20, 22)
+age = list(age)
+print(f'Converting tuple into list: {type(age)}')
+age[1] = 15
+print(f'After Change : {age}')
