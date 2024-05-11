@@ -24,3 +24,7 @@ print(f'Last 3 backward elements : {map[9:6:-1]}')
 print(f'Last 3 backward elements : {map[:6:-1]}')
 
 print(EOL * 37)
+
+maps = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+print(f'First 5 elements in reverse order : {maps[4::-1]}')
+print(f'Print all the elements in reverse order : {maps[::-1]}')
