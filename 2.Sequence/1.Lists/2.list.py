@@ -11,3 +11,9 @@ print(f'Top 2 grades : {grades[0:3]}')
 print(f'Last 2 grades : {grades[-2:]}')
 
 print(EOL * 37)
+
+lst = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+print(f'Every 2nd elements : {lst[2::2]}')
+print(f'Every 1st elements : {lst[1::2]}')
+
+print(EOL * 37)
