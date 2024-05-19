@@ -60,3 +60,9 @@ age[1::2] = (20, 40, 60, 80)
 print(f'After change : {age}')
 
 print(EOL * 37)
+
+aldo = [10, 20, 30, 40, 50, 60]
+print(f'Before change "Aldo" : {aldo}')
+print(aldo[1:3])
+aldo[1:3] = [0, 1, 2]
+print(f'After change "Aldo" : {aldo}')
