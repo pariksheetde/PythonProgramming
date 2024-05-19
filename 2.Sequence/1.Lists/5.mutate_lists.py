@@ -66,3 +66,22 @@ print(f'Before change "Aldo" : {aldo}')
 print(aldo[1:3])
 aldo[1:3] = [0, 1, 2]
 print(f'After change "Aldo" : {aldo}')
+
+print(EOL * 37)
+
+lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+lst[:-6:-1]
+print(f'After 1st change : {lst[:-6:-1]}')
+lst[:-6:-1] = [90, 80, 70, 60, 50]
+print(f'After 2nd change : {lst}')
+
+print(EOL * 37)
+
+# APPEND
+pde = [1, 2, 3]
+pde.append(4)
+pde.append([5, 6, 7])
+pde.extend([8, 9, 10])
+print(f'After appending : {pde}')
+
+print(EOL * 37)
