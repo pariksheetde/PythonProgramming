@@ -16,6 +16,7 @@ print(f'After change : {var}')
 
 print(EOL * 37)
 
+# EXTEND
 debt = [10, 20, 30]
 debt.extend([40, 50])
 debt.extend((50, 60, 70))
@@ -24,6 +25,7 @@ print(f'The value of debt : {debt}')
 
 print(EOL * 37)
 
+# EXTEND
 credit = [10, 20, 30]
 credit.extend(['a', 'b'])
 credit.extend(('a', 'b'))
