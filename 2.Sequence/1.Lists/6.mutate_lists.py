@@ -33,3 +33,12 @@ credit.extend(('ab'))
 print(f'The value of credit : {credit}')
 
 print(EOL * 37)
+
+# EXTEND
+lst = [10, 20, 30]
+lst.extend(['a', 'b', 'c'])
+lst.extend(('a', 'b', 'c'))
+lst.extend(('abc'))
+print(f'The value of lst : {lst}')
+
+print(EOL * 37)
