@@ -64,3 +64,19 @@ aldo[::2] = [1, 3, 5, 7]
 print(f'After change : {aldo}')
 
 print(EOL * 37)
+
+from timeit import timeit
+pow = []
+time_taken = timeit('pow.append(1)', globals=globals(), number=100)
+print(time_taken)
+print(len(pow))
+
+print(EOL * 37)
+
+from timeit import timeit
+dow = []
+time_taken = timeit('dow.insert(1, 1409)', globals=globals(), number=100)
+print(time_taken)
+print(len(dow))
+
+print(EOL * 37)
