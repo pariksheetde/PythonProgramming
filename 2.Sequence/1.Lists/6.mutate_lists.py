@@ -13,3 +13,21 @@ print(EOL * 37)
 var = [1, 20, 30, 5, 6]
 var[1:3] = ['alpha', 'beta', 'gamma', 'delta']
 print(f'After change : {var}')
+
+print(EOL * 37)
+
+debt = [10, 20, 30]
+debt.extend([40, 50])
+debt.extend((50, 60, 70))
+debt.extend(['ab'])
+print(f'The value of debt : {debt}')
+
+print(EOL * 37)
+
+credit = [10, 20, 30]
+credit.extend(['a', 'b'])
+credit.extend(('a', 'b'))
+credit.extend(('ab'))
+print(f'The value of credit : {credit}')
+
+print(EOL * 37)
