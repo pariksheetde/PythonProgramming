@@ -41,3 +41,22 @@ age.extend((60, 70))
 print(f'After extending new elements Age : {age}')
 
 print(EOL * 37)
+
+dep = [10, 20, 3, 40, 50]
+dep[1:3] = (2, 3, 4)
+print(f'Type : {type(dep)}', dep)
+
+print(EOL * 37)
+
+sd = [10, 20, 3, 40, 50]
+sd[1:3] = 'python'
+print(f'After change : {sd}')
+
+print(EOL * 37)
+
+age = [1, 2, 3, 4, 5, 6, 7, 8]
+print(f'Before change : {age[1::2]}')
+age[1::2] = (20, 40, 60, 80)
+print(f'After change : {age}')
+
+print(EOL * 37)

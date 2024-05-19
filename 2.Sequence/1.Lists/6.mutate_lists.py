@@ -42,3 +42,25 @@ lst.extend(('abc'))
 print(f'The value of lst : {lst}')
 
 print(EOL * 37)
+
+age = [1, 2, 3, 4, 5, 6, 7, 8]
+print(f'Before change : {age[1::2]}')
+# age[1::2] = [20, 40, 60] # THIS WILL NOT WORK. ValueError: attempt to assign sequence of size 3 to extended slice of size 4 
+print(f'After change : {age}')
+
+print(EOL * 37)
+
+dep = [1, 2, 3, 4, 5, 6, 7, 8]
+print(f'Before change : {dep[:-3:-1]}')
+dep[:-3:-1] = [101, 201]
+print(f'After change : {dep}')
+
+print(EOL * 37)
+
+aldo = [10, 20, 30, 40, 50, 60, 70, 80]
+aldo[::2]
+print(f'Before change : {aldo[::2]}')
+aldo[::2] = [1, 3, 5, 7]
+print(f'After change : {aldo}')
+
+print(EOL * 37)
