@@ -25,7 +25,19 @@ var = [10, 20, 30]
 var.extend([40])
 print(f'After extending new elements : {var}')
 
+print(EOL * 37)
+
 # INSERT
 val = [10, 20, 30]
 val.insert(0, 100)
 print(f'After inseting new element : {val}')
+
+print(EOL * 37)
+
+# EXTEND
+age = [10, 20, 30]
+age.extend([40, 50])
+age.extend((60, 70))
+print(f'After extending new elements Age : {age}')
+
+print(EOL * 37)
