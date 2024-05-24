@@ -25,3 +25,9 @@ split over \
 multiple lines \
 """)
 print()
+
+sample = r"D:\tataSet\nataSet\uythonDataSet"
+drive = "D:\\tataSet\\nataSet\\uythonDataSet"
+print(f'Drive : {sample}')
+print(f'Drive : {drive}')
+print()
