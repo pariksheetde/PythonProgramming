@@ -1,4 +1,4 @@
-# CHARACTER STRING EVALUATION
+# STRING ESCAPE CHARACTER EVALUATION
 
 print('Today is good day to learn Python')
 print('Python\'s single quote is easy to learn')
