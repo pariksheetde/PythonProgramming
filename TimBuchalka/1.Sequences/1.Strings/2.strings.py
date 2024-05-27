@@ -18,3 +18,6 @@ print()
 print(parrot[3])
 print(parrot[6])
 print(parrot[8])
+
+print(f'Display category: {parrot[-1:-5:-1][::-1]}')
+print()
