@@ -12,3 +12,9 @@ print()
 
 for indx in range(0, a // b):
     print(indx)
+
+print()
+
+# BELOW CODE WILL THROW ERROR
+for indx in range(0, a / b):
+    print(indx)
