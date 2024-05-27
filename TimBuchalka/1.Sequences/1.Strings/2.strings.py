@@ -12,4 +12,9 @@ print('What\"s in a name - William Shakespere', 'For every action there is an eq
 print()
 
 parrot = 'Norwegian Blue'
-print(parrot[3:5])
+print(parrot[3])
+print(parrot[4])
+print()
+print(parrot[3])
+print(parrot[6])
+print(parrot[8])
