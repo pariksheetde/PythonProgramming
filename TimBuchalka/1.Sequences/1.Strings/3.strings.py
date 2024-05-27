@@ -15,6 +15,9 @@ for indx in range(0, a // b):
 
 print()
 
+# BODMAS RULE
+print(a + b / 3 - 4 * 12)   # (12 + 1 - 48) = (13 - 48) = -35
+
 # BELOW CODE WILL THROW ERROR
 for indx in range(0, a / b):
     print(indx)
