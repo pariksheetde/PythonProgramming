@@ -29,3 +29,10 @@ print(separators)
 
 values = "".join(char if char not in separators else " " for char in number).split()
 print([int(val) for val in values])
+print()
+
+# DISPLAY THE ALPHABETS IN BACKWARD 
+alphabets = 'abcdefghijklmnopqrstuvwxyz'
+print(f'Backward alphabets : {alphabets[25::-1]}')
+print(f'Backward alphabets : {alphabets[::-1]}')
+print(f'Backward alphabets : {alphabets[::-1][::-1]}')
