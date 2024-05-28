@@ -43,3 +43,5 @@ alphabets = 'abcdefghijklmnopqrstuvwxyz'
 print(f'Last 8 characters in reverse order : {alphabets[:-9:-1]}')
 # PRINT FIRST 5 CHARACTERS IN REVERSE ORDER
 print(f'Last 5 characters in reverse order : {alphabets[4::-1]}')
+
+print()
