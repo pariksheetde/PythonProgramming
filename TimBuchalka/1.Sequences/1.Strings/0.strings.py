@@ -1,4 +1,6 @@
 # STRING ESCAPE CHARACTER EVALUATION
+# STRING is an ordered collection of items
+# STRINGS are immutable, which cann't be changed
 
 print('Today is good day to learn Python')
 print('Python\'s single quote is easy to learn')
