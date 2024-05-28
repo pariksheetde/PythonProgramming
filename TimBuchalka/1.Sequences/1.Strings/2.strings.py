@@ -36,3 +36,10 @@ alphabets = 'abcdefghijklmnopqrstuvwxyz'
 print(f'Backward alphabets : {alphabets[25::-1]}')
 print(f'Backward alphabets : {alphabets[::-1]}')
 print(f'Backward alphabets : {alphabets[::-1][::-1]}')
+print()
+
+alphabets = 'abcdefghijklmnopqrstuvwxyz'
+# PRINT LAST 8 CHARACTERS IN REVERSE ORDER
+print(f'Last 8 characters in reverse order : {alphabets[:-9:-1]}')
+# PRINT FIRST 5 CHARACTERS IN REVERSE ORDER
+print(f'Last 5 characters in reverse order : {alphabets[4::-1]}')
