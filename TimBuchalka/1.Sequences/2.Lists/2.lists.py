@@ -16,6 +16,8 @@ while current_choice != '0':
             computer_parts.append('mouse mat')
         elif current_choice == '6':
             computer_parts.append('hdmi')
+        else:
+            print('WRONG INPUT')
     else:
         print("Add option from below list")
         print("1. computer")
