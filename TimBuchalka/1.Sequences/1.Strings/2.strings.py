@@ -21,3 +21,11 @@ print(parrot[8])
 
 print(f'Display category: {parrot[-1:-5:-1][::-1]}')
 print()
+
+# RETURN ELEMENT IN LIST FROM A int type variable
+number = "9,123,372:036;775;807"
+separators = number[1::4]
+print(separators)
+
+values = "".join(char if char not in separators else " " for char in number).split()
+print([int(val) for val in values])
