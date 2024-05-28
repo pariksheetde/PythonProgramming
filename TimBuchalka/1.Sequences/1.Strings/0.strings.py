@@ -33,3 +33,8 @@ drive = "D:\\tataSet\\nataSet\\uythonDataSet"
 print(f'Drive : {sample}')
 print(f'Drive : {drive}')
 print()
+
+stmt = 'What\'s \'in a name?\''
+print(stmt)
+
+print()
