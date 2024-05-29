@@ -26,3 +26,12 @@ for indx in marks:
     total = total + indx
 print("Total : {}".format(total))
 print()
+
+# SORTED & CASEFOLD
+names = ['Anna', 'Bob', 'alex', 'monica', 'Thomas', 'peter']
+print("Before changes : {}".format(names))
+sorted_names = sorted(names)
+print("After changes : {}".format(sorted_names))
+casefolde_sorted_names = sorted(names, key=str.casefold)
+print("After applying casefold {}".format(casefolde_sorted_names))
+print()
