@@ -31,3 +31,10 @@ computer_parts = ['computer', 'monitor', 'keyboard', 'mouse', 'mouse mat']
 computer_parts[-1] = 'track ball'
 print("After replacing existing element in the list {}".format(computer_parts))
 print()
+
+# REPLACING ALL THE ELEMENTS IN THE LIST
+games = ['midtown madness', 'project igi', 'max payne', 'mafia']
+games[:] = ['Asphault 8']
+print("New Games: {}".format(games))
+print()
+
