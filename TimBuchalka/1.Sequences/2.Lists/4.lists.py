@@ -26,3 +26,8 @@ print("Copy : {}".format(copy))
 print(age is copy)
 print(age == copy)
 print()
+
+computer_parts = ['computer', 'monitor', 'keyboard', 'mouse', 'mouse mat']
+computer_parts[-1] = 'track ball'
+print("After replacing existing element in the list {}".format(computer_parts))
+print()
