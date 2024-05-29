@@ -1,9 +1,14 @@
 available_parts = ['computer', 'monitor', 'keyboard', 'mouse', 'mouse mat']
+valid_choice = [str(i) for i in range(1, len(available_parts) + 1)]
+another_valid_choice = []
+for indx in range(1, len(available_parts) + 1):
+    another_valid_choice.append(str(indx))
+print(another_valid_choice)
 current_choice = '-'
 computer_parts = []
 
 while current_choice != '0':
-    if current_choice in "123456":
+    if current_choice in another_valid_choice:
         print(f'Adding {current_choice}')
         if current_choice == '1':
             computer_parts.append('computer')
