@@ -32,9 +32,14 @@ computer_parts[-1] = 'track ball'
 print("After replacing existing element in the list {}".format(computer_parts))
 print()
 
-# REPLACING ALL THE ELEMENTS IN THE LIST
+# REPLACING all the elements in the list
 games = ['midtown madness', 'project igi', 'max payne', 'mafia']
 games[:] = ['Asphault 8']
 print("New Games: {}".format(games))
 print()
 
+# DELETE elements from the list
+data = [4, 5, 104, 101, 111, 113, 107, 109, 100, 107, 114]
+del data[:2]
+print("After deleting the elements {}:".format(data))
+print()
