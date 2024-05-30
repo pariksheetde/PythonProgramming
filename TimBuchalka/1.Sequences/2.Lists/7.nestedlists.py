@@ -27,6 +27,6 @@ menu = [['egg', 'bacon'],
 for food in menu:
     for item in food:
         if item != "spam":
-            print(item)
+            print(item, end=" ")
 
-print()
+    print()
