@@ -34,21 +34,3 @@ albums = [
        ]
       ),
 ]
-
-for name, artist, year, song in albums:
-    print("Album Name: {}, Artist: {}, Year: {}, Songs: {}".format(name, artist, year, song))
-
-album = albums[2]
-print(f'Album: {album}')
-
-songs = album[3]
-print(f'Songs: {song}')
-
-song = songs[1][1]
-print(f'Song without index: {song}')
-
-mayhem = albums[3][3][2][1]
-print(f'Mayhem Song Name: {mayhem}')
-
-budgie = albums[2][3][1][1]
-print(f'Budgie Song Name: {budgie}')
