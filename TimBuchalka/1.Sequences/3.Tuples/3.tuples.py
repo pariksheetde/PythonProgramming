@@ -35,12 +35,12 @@ albums = [
       ),
 ]
 
-# while True:
-#     print("Please choose your album (Invalid choice exits): ")
-#     for index, (title, artist, year, song) in enumerate(albums):
-#         print("{}, {}, {}, {}, {}".format(index + 1,title, artist, year, song))
-#     break
+while True:
+    print("Please choose your album (Invalid choice exits): ")
+    for index, (title, artist, year, song) in enumerate(albums):
+        print("{}, {}".format(index + 1,title))
+    break
 
-for index, value in enumerate(albums):
-    title, artist, year, song = value
-    print("{}, {}, {}, {}, {}".format(index + 1,title, artist, year, song))
+# for index, value in enumerate(albums):
+#     title, artist, year, song = value
+#     print("{}, {}, {}, {}, {}".format(index + 1,title, artist, year, song))
