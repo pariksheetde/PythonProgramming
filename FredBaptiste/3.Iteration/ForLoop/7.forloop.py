@@ -24,5 +24,8 @@ print()
 # casefold() and count() method
 name = 'parikshEet'
 wify = 'DeEpSi'
+river = 'mississippi'
 print(f'Number of \'e\' appears in {name}: {name.casefold().count("e")}')
 print(f'Number of \'e\' appears in {wify}: {wify.casefold().count("e")}')
+print(f'Number of \'s\' appears in {river}: {river.casefold().count("s")}')
+print(f'Number of \'ss\' appears in {river}: {river.casefold().count("ss")}')
