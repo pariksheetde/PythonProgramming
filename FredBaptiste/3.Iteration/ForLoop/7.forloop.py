@@ -19,3 +19,8 @@ fav_shopping_cart.append('cherry')
 print(f'Shopping Cart has: {shopping_cart}')
 print(f'Favourite Shopping Cart has: {fav_shopping_cart}')
 print()
+
+# count number of "e" appears in the string "pariksheet"
+# casefold() and count() method
+name = 'parikshEet'
+print(f'Number of \'e\' appears in {name}: {name.casefold().count("e")}')
