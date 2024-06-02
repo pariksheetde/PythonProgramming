@@ -23,4 +23,6 @@ print()
 # count number of "e" appears in the string "pariksheet"
 # casefold() and count() method
 name = 'parikshEet'
+wify = 'DeEpSi'
 print(f'Number of \'e\' appears in {name}: {name.casefold().count("e")}')
+print(f'Number of \'e\' appears in {wify}: {wify.casefold().count("e")}')
