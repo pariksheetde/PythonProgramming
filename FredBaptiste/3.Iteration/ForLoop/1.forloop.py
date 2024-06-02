@@ -1,20 +1,25 @@
-EOL = "----"
+# SEQUENCE IS A ORDERED COLLECTION OF ELEMENTS
+# STRING, LIST and TUPLES ARE SEQUENCE
+# STRINGS ARE IMMUTABLE THAT MEANS THEY CANN'T BE CHANGES
+# LISTS ARE MUTABLE, THAT MEANS THE VALUE CAN BE CHANGED
+
+
 for i in [1, 2]:
     i = i
     print(f'i : {i}')
-print(EOL * 37)
+print()
 
 for i in [1, 2]:
     i = i + i
     print(f'i : {i}')
-print(EOL * 37)
+print()
 
 for i in range(0, 10, 2):
     i = i + i
     print(f'i : {i}')
-print(EOL * 37)
+print()
 
 for i in ['a', 'b']:
     j = i + i
     print(f'j : {j}')
-print(EOL * 37)
+print()

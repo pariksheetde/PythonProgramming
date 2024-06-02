@@ -1,4 +1,9 @@
-EOL = "----"
+# SEQUENCE IS A ORDERED COLLECTION OF ELEMENTS
+# STRING, LIST and TUPLES ARE SEQUENCE
+# STRINGS ARE IMMUTABLE THAT MEANS THEY CANN'T BE CHANGES
+# LISTS ARE MUTABLE, THAT MEANS THE VALUE CAN BE CHANGED
+
+
 # Replace any element lesser than 0 with 0 using enumerate() 
 data = [10, 20, 30, -10, 40, -5]
 for t in enumerate(data):
@@ -7,7 +12,7 @@ for t in enumerate(data):
         data[index] = 0
 print(f'After change : {data}')
 
-print(EOL * 37)
+print()
 
 data = [10, 20, 30, -10, 40, -5]
 for indx in data:
@@ -15,7 +20,7 @@ for indx in data:
         indx = 0
     print(indx)
 
-print(EOL * 37)
+print()
 
 # Replace any element lesser than 0 with 0 using enumerate() 
 data = [10, 20, 30, -10, 40, -5]

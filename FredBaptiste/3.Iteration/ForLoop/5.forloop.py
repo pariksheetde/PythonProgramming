@@ -26,3 +26,4 @@ if id(result) == id(anaother_result):
     print(True)
 else:
     print(False)
+print()
