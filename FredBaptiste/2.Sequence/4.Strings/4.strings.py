@@ -10,3 +10,8 @@ print(f'Using Sorted : {sorted(sorted_numbers)}')
 print(f'Using Sort : {sorted(numbers)}')
 print(f'Using Sort : {numbers}')
 print()
+
+letters = "The quick brown fox jumps over the lazy fox"
+missing_letter = sorted(letters)
+print(missing_letter)
+print()
