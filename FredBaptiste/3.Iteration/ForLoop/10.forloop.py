@@ -34,8 +34,8 @@ while current_choice != '0':
             cart.append('DVD drive')
     else:
         print("Add option from below list")
-        for value in computer_parts:
-            print("{0}: {1}".format(computer_parts.index(value) + 1, value)) # THIS LINE OF CODE CAN ALSO BE PERFORMED USING ENUMERATE FUNCTION 
+        for index, value in enumerate(computer_parts):
+            print("{0}: {1}".format(index + 1, value)) # THIS LINE OF CODE has been modified USING ENUMERATE FUNCTION 
     current_choice = input()
 print(f'{cart} added to your cart')
 print()

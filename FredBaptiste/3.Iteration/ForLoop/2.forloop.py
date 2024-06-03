@@ -23,3 +23,7 @@ for indx in data:
     if indx < 0:
         indx = 0
     print(indx)
+print()
+
+for index, value in enumerate('abcdefghijklmnopqrstuvwxyz'):
+    print(index + 1,value)
