@@ -15,8 +15,14 @@ computer_parts = [
     'DVD drive',
 ]
 cart = []
+# valid_choice = [str(i) for i in range(1, len(computer_parts) + 1)]
+# print('Valid Choice {}'.format(valid_choice))
+valid_choice = []
+for i in range(1, len(computer_parts) + 1):
+    valid_choice.append(str(i))
+print('Valid Choice {}'.format(valid_choice))
 while current_choice != '0':
-    if current_choice in '1234567':
+    if current_choice in valid_choice:
         print('Adding {}'.format(current_choice))
         if current_choice == '1':
             cart.append('computer')
