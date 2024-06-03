@@ -1,0 +1,16 @@
+When an object is said to be immutable that means the values cann't be changed
+The following immutable types are built into Python
+1. int
+2. str
+3. float
+4. boolean (subclass of int)
+5. frozenset
+6. tuple
+7. bytes
+
+When an object is said to be mutable that means the values can be changed
+The following mutable types are built into Python
+1. list
+2. set
+3. dictionary
+4. Bytearray
