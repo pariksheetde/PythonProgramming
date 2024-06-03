@@ -15,3 +15,9 @@ letters = "The quick brown fox jumps over the lazy fox"
 missing_letter = sorted(letters)
 print(missing_letter)
 print()
+
+# USE casefold TO SORT THE NAMES IN THE LIST IN ASC OREDR IRRESPECTIVE OF UPPERCASE, LOWERCASE CHARECTERS
+name = 'PAriksHEeT'
+sorted_name = sorted(name, key = str.casefold)
+print(f'Sorted Name: {sorted_name}')
+print()

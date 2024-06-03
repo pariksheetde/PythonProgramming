@@ -14,3 +14,14 @@ even.sort(reverse=True)
 print(f'Sorting the numbers in ASC order: {even}')
 
 print()
+
+# USE casefold TO SORT THE NAMES IN THE LIST IN ASC OREDR IRRESPECTIVE OF UPPERCASE, LOWERCASE CHARECTERS 
+names = [
+    "Graham",
+    "monica",
+    "terry",
+    "Michael",
+    "eric"
+]
+names.sort(key=str.casefold)
+print(names)
