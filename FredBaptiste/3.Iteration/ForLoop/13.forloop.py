@@ -14,7 +14,7 @@ max_valid = 200
 start = 0
 for index in range(len(data) - 1, -1, -1):
     if data[index] <= max_valid:
-        start = index
+        start = index + 1 
         break
 print(start)
 del data[start:]
