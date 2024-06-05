@@ -17,3 +17,10 @@ print()
 for meal in menu:
     if 'spam' in meal:
         print(f'Menu that has "spam" {meal}')
+print()
+
+# DISPLAY THE COUNT THAT HAS "SPAM"
+for meal in menu:
+    if 'spam' in meal:
+        print(f'Menu that has "spam" {meal} has a score of {meal.count("spam")}')
+print()
