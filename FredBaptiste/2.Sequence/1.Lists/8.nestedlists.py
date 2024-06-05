@@ -24,3 +24,8 @@ for meal in menu:
     print()
 print()
 
+# SOLUTION 3
+for meal in menu:
+    items = ",".join((item for item in meal if item != 'spam'))
+    print(items)
+print()
