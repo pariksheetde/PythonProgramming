@@ -3,6 +3,7 @@ def is_sentence_palidrome(string):
     for char in string:
         if char.isalnum():
             string += char
+    print(string)
     return str.casefold(string) == str.casefold(string[::-1])
 
 
