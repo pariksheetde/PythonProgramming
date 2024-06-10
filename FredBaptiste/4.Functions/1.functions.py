@@ -1,6 +1,10 @@
 # WRITE A PALIDROME FUNCTION TO CHECK IF THE REVERSE STRING WORKS
 # SOME OF THE EXAMPLES OF PALIDROMES ARE (RACECAR, MADAM)
 def is_palidrome(string):
+    """
+    This Function is used to check if a word suplied by the user is palidrome.
+    Palidrome means that a word read from backwaod will be same as the actual word
+    """
     if str.casefold(string) == str.casefold(string[::-1]):
         print("\'{}\' is a palidrome".format(string))
     else:
@@ -11,6 +15,10 @@ is_palidrome(prompt)
 print()
 
 def is_sentence_palidrome(string):
+    """
+    This Function is used to check if a word suplied by the user is palidrome.
+    Palidrome means that a word read from backwaod will be same as the actual word
+    """
     string = ""
     for char in string:
         if char.isalnum():
