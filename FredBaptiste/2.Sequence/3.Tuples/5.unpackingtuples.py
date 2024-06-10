@@ -34,11 +34,3 @@ albums = [
        ]
       ),
 ]
-for name, artist, year, song in albums:
-    print("Album was \"{}\" released by {} in the year {} with the song {}".format(name, artist, year, song))
-print()
-
-
-mayhem = albums[3]
-print(f"Let's print the details of Mayhem: {mayhem}")
-print(f"Let's print the details of Mayhem: {albums[3][3][2][1]}")
