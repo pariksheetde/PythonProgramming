@@ -1,6 +1,6 @@
 def add(x, y = 5):
     """This Function Is Used To Perform Addition Of 2 Numbers.
-    2Nd Parameter Has A Default Value Of 5
+    2nd Parameter Has A Default Value Of 5
     """
     result = (x * y)
     return result
