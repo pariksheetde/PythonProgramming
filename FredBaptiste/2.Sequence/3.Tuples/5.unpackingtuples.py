@@ -34,3 +34,20 @@ albums = [
        ]
       ),
 ]
+while True:
+    print("Please chosse your album. Invalid choice exists: ")
+    # for index, value in enumerate(albums):
+    #     title, artist, year, song = value
+    #     print("{}: {}, {}, {}, {}".format(index + 1, title, artist, year, song))
+    # break
+    for index, (title, artist, year, song) in enumerate(albums):
+        print("{}: {}".format(index + 1, title))
+    choice = int(input())
+    # if 1 <= choice <= len(albums):
+    if choice >= 1 and choice <= len(albums):
+        songs_list = albums[choice - 1][3]
+    else:
+        break
+    print(albums[choice - 1])
+    print(f'Songs: {songs_list}')
+    print()
