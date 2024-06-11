@@ -1,6 +1,6 @@
 # WRITE A PALIDROME FUNCTION TO CHECK IF THE REVERSE STRING WORKS
 # SOME OF THE EXAMPLES OF PALIDROMES ARE (RACECAR, MADAM)
-def is_palidrome(string):
+def is_palidrome(string: str) -> bool:
     """
     This Function is used to check if a word suplied by the user is palidrome.
     Palidrome means that a word read from backword will be same as the actual word
@@ -14,7 +14,7 @@ prompt = input("Enter a word to check if the word is palidrome: ")
 is_palidrome(prompt)
 print()
 
-def is_sentence_palidrome(string):
+def is_sentence_palidrome(string: str) -> bool:
     """
     This Function is used to check if a sentence suplied by the user is palidrome.
     Palidrome means that a word read from backword will be same as the actual word
