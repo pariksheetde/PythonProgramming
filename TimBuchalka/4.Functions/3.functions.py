@@ -1,4 +1,4 @@
-def is_sentence_palidrome(string):
+def is_sentence_palidrome(string: str) -> bool:
     string = ""
     for char in string:
         if char.isalnum():

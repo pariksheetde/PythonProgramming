@@ -1,4 +1,4 @@
-def is_palidrome(string):
+def is_palidrome(string: str) -> bool:
     return str.casefold(string) == str.casefold(string[::-1])
 
 

@@ -4,7 +4,7 @@ def multiply():
 print(f'Multiplication of 10.5 and 4: {int(multiply())}')
 
 
-def multiply2numbers(a, b):
+def multiply2numbers(a: float, b: float) -> float:
     return (a * b)
 
 print(f'Multiplication: {multiply2numbers(7, 5)}')
