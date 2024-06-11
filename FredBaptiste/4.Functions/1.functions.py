@@ -3,7 +3,7 @@
 def is_palidrome(string):
     """
     This Function is used to check if a word suplied by the user is palidrome.
-    Palidrome means that a word read from backwaod will be same as the actual word
+    Palidrome means that a word read from backword will be same as the actual word
     """
     if str.casefold(string) == str.casefold(string[::-1]):
         print("\'{}\' is a palidrome".format(string))
@@ -16,8 +16,8 @@ print()
 
 def is_sentence_palidrome(string):
     """
-    This Function is used to check if a word suplied by the user is palidrome.
-    Palidrome means that a word read from backwaod will be same as the actual word
+    This Function is used to check if a sentence suplied by the user is palidrome.
+    Palidrome means that a word read from backword will be same as the actual word
     """
     string = ""
     for char in string:
@@ -31,4 +31,9 @@ word = input("Enter a sentence to check if the word is palidrome: ")
 if is_sentence_palidrome(word):
     print('{} is a palidrome'.format(word))
 else:
-    print('{} is not a palidrome'.format(word))    
+    print('{} is not a palidrome'.format(word))
+
+print(is_palidrome.__doc__)
+print(is_sentence_palidrome.__doc__)
+help(is_palidrome)
+help(is_sentence_palidrome)    
