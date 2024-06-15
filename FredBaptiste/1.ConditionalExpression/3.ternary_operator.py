@@ -23,6 +23,6 @@ current_value = 100
 running_total = 15_000
 running_count = 125
 
-clean_value = -999 if current_value == -999 else current_value
-print(f'Clean Value: {clean_value + current_value}')
+clean_value = 0 if current_value == -999 else current_value
+print(f'Clean Value: {running_total + current_value}')
 print()
