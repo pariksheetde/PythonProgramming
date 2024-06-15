@@ -7,7 +7,8 @@ print(f'Next CTC: {bonus + CTC + hike}')
 print()
 
 a = 10
-b = 6
+b = 0
 
 result = a / b if b != 0 else None
 print(f'Result of Ternary Operator: {result}')
+print()
