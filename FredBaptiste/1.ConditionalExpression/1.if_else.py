@@ -7,7 +7,7 @@ else:
     print(f'Not authorised to withdraw {withdraw}')
 print(f'1st program execution completed')
 
-print('---------------------------------------------------------------------------------------------------------------------------')
+print()
 
 account_enabled = True
 balance = 1000
@@ -18,7 +18,7 @@ else:
     print(f'Not authorised to withdraw {withdraw}')
 print(f'2nd program execution completed')
 
-print('---------------------------------------------------------------------------------------------------------------------------')
+print()
 
 account_enabled = False
 balance = 1000
@@ -29,7 +29,7 @@ else:
     print(f'Not authorised to withdraw {withdraw}')
 print(f'3rd program execution completed')
 
-print('---------------------------------------------------------------------------------------------------------------------------')
+print()
 
 account_enabled = True
 balance = 1000
@@ -42,3 +42,4 @@ else:
     else:
         print(f'Insufficient Fund')
 print(f'4th program execution completed')
+print()
