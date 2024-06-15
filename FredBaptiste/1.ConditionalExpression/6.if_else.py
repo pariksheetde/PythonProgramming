@@ -13,3 +13,19 @@ elif grade >= 50 and grade <= 59:
 else:
     print("FAIL")
 print()
+
+marks = 72
+
+if marks >= 90:
+    print("Brilliant")
+elif marks >= 80:
+    print("Awsome")
+elif marks >= 70:
+    print("Average")
+elif marks >= 60:
+    print("Not so good")
+elif marks >= 50:
+    print("Has to improve")
+else:
+    print("FAIL")
+print()
