@@ -23,3 +23,15 @@ else:
     elif withdraw > available_balance:
         print(f"Withdrawl amaount excceded by {withdraw - available_balance}")
 print()
+
+account_enabled = False
+available_balance = 10000
+withdraw = 101000
+
+if not account_enabled:
+    print("Unauthorized access")
+elif withdraw >= available_balance:
+    print("Insufficient Balance")
+else:
+    print("Withdrawal Authorized")
+print()
