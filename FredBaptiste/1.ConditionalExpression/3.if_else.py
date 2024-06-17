@@ -13,8 +13,7 @@ elif marks >= 50 and marks <= 60:
 else:
     print(f'Failed')
 print('1st Statement executed successfully')
-
-print('-------------------------------------------------------------------------------------------------------------------')
+print()
 
 marks = 65
 
@@ -29,3 +28,4 @@ if marks >= 60 and marks <=70:
 if marks >= 50 and marks <= 60:
     print(f'Grade is E')
 print('2nd Statement executed successfully')
+print()
