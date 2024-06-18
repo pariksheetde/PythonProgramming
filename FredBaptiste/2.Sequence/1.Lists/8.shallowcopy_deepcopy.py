@@ -9,7 +9,7 @@
 
 original = [10, 20, 30, 40]
 # create a shallow copy
-copy = original[::]
+copy = original[:]
 print(f'Before Change, {original, copy}', sep=": ")
 if original[0] is copy[0]:
     print(f'Both the object references are same')
