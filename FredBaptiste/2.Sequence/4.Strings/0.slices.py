@@ -22,3 +22,12 @@ print(surname)
 print(last_name)
 print(reversed_name)
 print()
+
+lang = 'python rocks!'
+print(lang[0:6])
+
+range = range(1, 11)
+tup = tuple(range)
+# display alternate elements from tuple
+alt_tuple = tup[::2]
+print(type(alt_tuple), alt_tuple)
