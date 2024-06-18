@@ -20,3 +20,4 @@ a = b
 b = temp
 print(f'After Swapping, \'A\': {a}')
 print(f'After Swapping, \'B\': {b}')
+print()
