@@ -1,4 +1,3 @@
-EOL = "----"
 # Copying Sequence
 original = [10, 20, 30]
 copy = original[:]
@@ -10,12 +9,10 @@ if original is copy:
     print(True)
 else:
     print(False)
-
 original.append(40)
+print()
 
-print(EOL * 37)
 
-EOL = "----"
 # Copying Sequence
 original = [10, 20, 30]
 copy = original.copy()
@@ -27,8 +24,7 @@ print(f'copy : {copy}')
 original.append(40)
 print(f'Original : {original}')
 print(f'copy : {copy}')
-
-print(EOL * 37)
+print()
 
 mat1 = [[0, 0, 0], [0, 1, 0], [1, 0, 0], [0, 0, 1]]
 mat2 = mat1.copy()
@@ -63,3 +59,4 @@ else:
 set[0].append(1409)
 print(f'After Change SET : {set}')
 print(f'After Change MAX : {max}')
+print()
