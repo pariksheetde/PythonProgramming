@@ -31,3 +31,9 @@ tup = tuple(range)
 # display alternate elements from tuple
 alt_tuple = tup[::2]
 print(type(alt_tuple), alt_tuple)
+print()
+
+grades = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90]
+# every element from backward  
+print(f'Test: {grades[-9::1]}')
+print()
