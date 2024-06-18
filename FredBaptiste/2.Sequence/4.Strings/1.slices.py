@@ -24,3 +24,14 @@ sub[1] = 20
 sub = matrix_reloaded[2]
 sub[1] = 30
 print(matrix_reloaded)
+
+age = range(1, 11)
+list_age = list(age)
+print(list_age)
+# display all the elements in the array
+all_age = list_age[::]
+print(f'All the elements in the Array: {all_age}')
+# display all the elements in the array
+all_age_lst = list_age[::1]
+print(f'All the elements in the Array: {all_age_lst}')
+print()
