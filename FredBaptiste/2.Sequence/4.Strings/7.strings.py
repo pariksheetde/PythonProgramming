@@ -14,3 +14,9 @@ print()
 s = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(s[-1:4:-1])
 print()
+
+# Print only last 2 characters
+name = "Pariksheet De"
+surname = name[-2:]
+print(f'Last name: {surname}')
+print()
