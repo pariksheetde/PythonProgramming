@@ -4,3 +4,19 @@ print(f'Profession: {details[4]}')
 print("{} belongs from {} and her profession is {}".format(details[0],details[1],details[4]))
 print()
 
+rate = 10, 12.25
+print(f'Rate: {rate}')
+# unpacking tuple
+apr, apy = rate
+print(f'APR: {apr}')
+print(f'APY: {apy}')
+print()
+
+# swapping 2 variables
+a = 100
+b = 200
+temp = a
+a = b
+b = temp
+print(f'After Swapping, \'A\': {a}')
+print(f'After Swapping, \'B\': {b}')
