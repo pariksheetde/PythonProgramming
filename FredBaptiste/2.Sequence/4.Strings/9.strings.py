@@ -40,6 +40,6 @@ lst = name.split(',')
 print(f'Converting from STRING to LIST: {lst}')
 
 name = ['Peter,Monica,Kate,Robert']
-lst = " ,".join(name)
+lst = ", ".join(name)
 print(f'Converting from LIST to STRING: {lst}')
 print()
