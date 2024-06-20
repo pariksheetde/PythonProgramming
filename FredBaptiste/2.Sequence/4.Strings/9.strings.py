@@ -43,3 +43,17 @@ name = ['Peter,Monica,Kate,Robert']
 lst = ", ".join(name)
 print(f'Converting from LIST to STRING: {lst}')
 print()
+
+marks = [74, 75, 87, 90, 74]
+if 74.0 in marks:
+    print(f'Available')
+else:
+    print(f'Not Available')
+print()
+
+lang = 'Python Rocks!'
+if 'rocks'.casefold() in lang:
+    print(f'Rocks! is available')
+else:
+    print(f'Rocks! is not available')
+print()
