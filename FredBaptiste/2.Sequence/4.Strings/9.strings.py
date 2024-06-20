@@ -34,3 +34,12 @@ print(f'String Data after split. String has been converted into List: {string.sp
 lst = ['10', ' 20', ' 30', ' 40']
 print(f'String Data after split. List has been converted into String:{",".join(lst)}')
 print()
+
+name = 'Peter,Monica,Kate,Robert'
+lst = name.split(',')
+print(f'Converting from STRING to LIST: {lst}')
+
+name = ['Peter,Monica,Kate,Robert']
+lst = " ,".join(name)
+print(f'Converting from LIST to STRING: {lst}')
+print()
