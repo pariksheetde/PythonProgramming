@@ -37,3 +37,8 @@ print(f'After Change in List : {beta}')
 print(f'After Change in Tuple : {alpha}')
 
 print()
+
+data = (10, 15, 20, [True, 'SQL'])
+data[len(data) - 1][0] = 30
+data[len(data) - 1][1] = 40
+print(data)
