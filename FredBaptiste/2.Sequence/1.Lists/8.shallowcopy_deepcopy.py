@@ -55,3 +55,4 @@ if original[0] is copy[0]:
     print(f'4th STATEMENT: Both the object references \'DEEP COPY \'are same')
 else:
     print(f'Both the object references \'DEEP COPY \' are different')
+print()
