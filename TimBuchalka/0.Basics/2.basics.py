@@ -27,3 +27,15 @@ age = 20
 print(name + " is " + str(age) + " " + "years old")
 print(f"{name} is {age} years old")
 print()
+
+# numeric operator
+a = 12
+b = 3
+
+print(f'Addition of {a} + {b}: {a + b}')                # 15
+print(f'Subtraction of {a} - {b}: {a - b}')             # 9
+print(f'Multiplication of {a} * {b}: {a * b}')          # 36
+print(f'Division of {a} / {b}: {a / b}')                # 4.0
+print(f'Integer Division of {a} // {b}: {a // b}')      # 4
+print(f'Modulus of {a} % {b}: {a % b}')                 # 0
+print()
