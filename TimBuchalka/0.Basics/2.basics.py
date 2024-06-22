@@ -14,3 +14,10 @@ However, while reading this line, the sentence would appear \
 in a single line.
 """
 print(sentence)
+
+stmt = 'Pet owner said \"No, no, \"e \\\
+\"s uh,...he\'s is resting'
+print(stmt)
+
+drive = r"D:\Finance\code"
+print(f'Drive: {drive}')
