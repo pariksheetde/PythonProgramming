@@ -21,3 +21,9 @@ print(stmt)
 
 drive = r"D:\Finance\code"
 print(f'Drive: {drive}')
+
+name = "Pariksheet"
+age = 20
+print(name + " is " + str(age) + " " + "years old")
+print(f"{name} is {age} years old")
+print()
