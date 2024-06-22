@@ -41,3 +41,8 @@ But it's written in a single line. \
 Let's see, how it's read \
 """
 print(spliitedquotes)
+print()
+
+splittedline = "This senetence has been \nover several line \tto demonstrate how \nsepecial characters work \tin python"
+print(splittedline)
+print()
