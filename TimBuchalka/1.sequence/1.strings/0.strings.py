@@ -17,3 +17,16 @@ print(parrot[-8])
 print(parrot[-6])
 
 print()
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+print(f'Printing the alphabets in reverse order: {alphabet[::-1]}')
+print(f'Printing the alphabets in reverse order: {alphabet[:-27:-1]}')
+print(f'Printing the alphabets in reverse order: {alphabet[27::-1]}')
+
+print()
+
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+print(f'Generating "qpo": {alphabet[-10:13:-1]}')
+print(f'Generating "edcba": {alphabet[4::-1]}')
+print(f'Generating "stuvwxyz": {alphabet[-8:][::-1]}')
+print()
