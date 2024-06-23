@@ -1,9 +1,11 @@
 splittedline = "This senetence has been \nover several line \tto demonstrate how \nsepecial characters work \tin python"
 print(splittedline)
+
 print()
 
 stmt = "Pet owner said \"No, no, \'e \'s uh,...he\'s is resting"
 print(stmt)
+
 print()
 
 stmt = 'Pet owner said \"No, no, \"e \"s uh,...he\'s is resting'
@@ -26,6 +28,7 @@ name = "Pariksheet"
 age = 20
 print(name + " is " + str(age) + " " + "years old")
 print(f"{name} is {age} years old")
+
 print()
 
 # numeric operator
@@ -39,9 +42,19 @@ print(f'Division of {a} / {b}: {a / b}')                # 4.0
 print(f'Integer Division of {a} // {b}: {a // b}')      # 4
 print(f'Modulus of {a} % {b}: {a % b}')                 # 0
 print(f'BOSMAS Expression: {(a + b) * (a - b)}')        # 135
+
 print()
 
 # Applying BODMAS
 print(f'The Result of Operator Precedence: {a + b / 3 - 4 * 12}')   # (12 + 1 - 48) = -35
 print(f'The Result of Operator Precedence: {a + (b / 3) - (4 * 12)}')   # (12 + 1 - 48) = -35
+
+print()
+
+name = "Pariksheet"
+age = 35
+print(f'My name is {name} and I am {age} years old')
+print('My name is {} and I am {} years old'.format(name, age))
+print("My name is "  + name + " and I am " + str(age) + " years old")
+
 print()
