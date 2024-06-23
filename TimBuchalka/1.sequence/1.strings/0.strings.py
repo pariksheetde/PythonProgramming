@@ -35,3 +35,5 @@ print()
 print("Hello " * 5)
 print("Hello " * (2 + 1))
 print("Hello " * (2 + 1), "7")
+
+print()
