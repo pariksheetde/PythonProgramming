@@ -57,4 +57,11 @@ print(f'My name is {name} and I am {age} years old')
 print('My name is {} and I am {} years old'.format(name, age))
 print("My name is "  + name + " and I am " + str(age) + " years old")
 
+print("There are {0} days in {1}, {2}, {3}, {4}, {5}, {6}, {7}"
+      .format(31, "Jan", "Mar", "May", "Jul", "Aug", "Oct", "Dec"))
+print("There are {0} days in Jan, Mar, May, Jul, Aug, Oct, Dec"
+      .format(31))
+print("Jan: {0}, Feb: {1}, Mar: {0}, Apr: {2}, May: {0}, Jun: {2}, Jul: {0}, Aug: {0}, Sep: {2}, Oct: {0}, Nov: {2}, Dec: {0}"
+      .format(31, 28, 30))
+
 print()
