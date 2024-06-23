@@ -29,4 +29,9 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 print(f'Generating "qpo": {alphabet[-10:13:-1]}')
 print(f'Generating "edcba": {alphabet[4::-1]}')
 print(f'Generating "stuvwxyz": {alphabet[-8:][::-1]}')
+
 print()
+
+print("Hello " * 5)
+print("Hello " * (2 + 1))
+print("Hello " * (2 + 1), "7")
