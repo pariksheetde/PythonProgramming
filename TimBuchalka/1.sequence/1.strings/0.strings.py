@@ -37,3 +37,11 @@ print("Hello " * (2 + 1))
 print("Hello " * (2 + 1), "7")
 
 print()
+
+print("PI is approximately: {0:5f}".format(22/7))
+print("PI is approximately: {0:10f}".format(22/7))
+print("PI is approximately: {0:15f}".format(22/7))
+print("PI is approximately: {0:20f}".format(22/7))
+print("PI is approximately: {0:25f}".format(22/7))
+
+print()
