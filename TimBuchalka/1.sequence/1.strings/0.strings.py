@@ -17,4 +17,3 @@ print(parrot[-8])
 print(parrot[-6])
 
 print()
-
