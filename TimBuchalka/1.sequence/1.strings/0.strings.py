@@ -1,3 +1,12 @@
+# When an object is said to immutable, that means it cann't be changed
+# The following are immutable types
+# 1. int
+# 2. str
+# 3. bool
+# 4. tuple
+# 5. frozenset
+# 6. bytes
+
 parrot = "Norwegian Blue"
 print(f'Length of parrot: {len(parrot)}')
 print(parrot[3])
