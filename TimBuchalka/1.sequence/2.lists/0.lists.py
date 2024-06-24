@@ -47,3 +47,12 @@ else:
 
 print()
 
+my_fav = wife_fav = kid_fav = shopping_cart
+
+anoher_shopping_cart.append("Ice-Cream")
+print(f'My Fav: {my_fav}')
+print(f'My Wife\'s Fav: {wife_fav}')
+print(f'My Kid\'s Fav: {kid_fav}')
+print(f'Actual Shooping Cart: {shopping_cart}')
+
+print()
