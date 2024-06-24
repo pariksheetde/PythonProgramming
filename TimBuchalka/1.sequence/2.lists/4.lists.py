@@ -4,13 +4,14 @@ available_parts = [
     'keyboard', 
     'mouse', 
     'mouse mat',
+    "DVD drive",
     'hdmi cable'
     ]
 current_choice = '-'
 computer_parts = []
 
 while current_choice != '0':
-    if current_choice in "123456":
+    if current_choice in "1234567":
         print(f'Adding {current_choice}')
         if current_choice == '1':
             computer_parts.append('computer')
@@ -23,6 +24,8 @@ while current_choice != '0':
         elif current_choice == '5':
             computer_parts.append('mouse mat')
         elif current_choice == '6':
+            computer_parts.append('DVD drive')
+        elif current_choice == '7':
             computer_parts.append('hdmi cable')
     else:
         print("Add option from below list")
@@ -30,3 +33,5 @@ while current_choice != '0':
             print(f'{index + 1}: {part}')
     current_choice = input()
     print(f'{computer_parts} added to your cart')
+
+print()
