@@ -12,3 +12,4 @@ print(numbers)
 for number in numbers:
     for sub_number in number:
         print(sub_number)
+print()

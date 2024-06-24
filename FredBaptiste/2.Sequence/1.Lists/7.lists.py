@@ -20,3 +20,4 @@ fruits = [
 ]
 fruits[0:2] = ['pears', 'dragon fruit']
 print(f'After Change: {fruits}')
+print()

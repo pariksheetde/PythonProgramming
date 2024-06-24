@@ -3,7 +3,6 @@ even = [2, 4, 6, 8, 10]
 numbers = (even + odd)
 # SORT THE "NUMBERS" ARAAY IN ASCENDING ORDER USING sorted()
 print(f'Sorting the numbers in ASC order: {sorted(numbers)}')
-
 print()
 
 digits = '432985617'
