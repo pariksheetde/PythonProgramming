@@ -15,10 +15,39 @@ print(f'Contents of American Tourister: {american_tourister.items}')
 print()
 
 class Backpack:
-    def __init__(self, color, price):
+    def __init__(self, size, color, weight, material, no_of_pockets, number_of_zippers, price):
+        self.size = size
         self.color = color
+        self.weight = weight
+        self.material = material
+        self.no_of_pockets = no_of_pockets
+        self.number_of_zippers = number_of_zippers
         self.price = price
 
 
-duckbag = Backpack("Red", 3500)
-print(f'Cost of Duckbag: {duckbag.price} and color will be {duckbag.color}')
+duckbag = Backpack('Small',"Red", "1.5 kg", "Fabric", 4, 3, 3500)
+
+print("Details of Duckbag Backpack")
+print(f'Price: {duckbag.price}')
+print(f'Color: {duckbag.color}')
+print(f'Size: {duckbag.size}')
+print(f'Weight: {duckbag.weight}')
+print(f'Material: {duckbag.material}')
+print(f'Pockets Available: {duckbag.no_of_pockets}')
+print(f'Available Zip: {duckbag.number_of_zippers}')
+
+print()
+
+
+versace = Backpack('Medium',"White", "1.95 kg", "Leather", 4, 6, 10500)
+
+print("Details of versace Backpack")
+print(f'Price: {versace.price}')
+print(f'Color: {versace.color}')
+print(f'Size: {versace.size}')
+print(f'Weight: {versace.weight}')
+print(f'Material: {versace.material}')
+print(f'Pockets Available: {versace.no_of_pockets}')
+print(f'Available Zip: {versace.number_of_zippers}')
+
+print()
