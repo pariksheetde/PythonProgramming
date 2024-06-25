@@ -41,7 +41,7 @@ print()
 
 versace = Backpack('Medium',"White", "1.95 kg", "Leather", 4, 6, 10500)
 
-print("Details of versace Backpack")
+print("Details of Versace Backpack")
 print(f'Price: {versace.cost}')
 print(f'Color: {versace.color}')
 print(f'Size: {versace.size}')
