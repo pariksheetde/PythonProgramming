@@ -22,13 +22,13 @@ class Backpack:
         self.material = material
         self.no_of_pockets = no_of_pockets
         self.number_of_zippers = number_of_zippers
-        self.price = price
+        self.cost = price
 
 
 duckbag = Backpack('Small',"Red", "1.5 kg", "Fabric", 4, 3, 3500)
 
 print("Details of Duckbag Backpack")
-print(f'Price: {duckbag.price}')
+print(f'Price: {duckbag.cost}')
 print(f'Color: {duckbag.color}')
 print(f'Size: {duckbag.size}')
 print(f'Weight: {duckbag.weight}')
@@ -42,7 +42,7 @@ print()
 versace = Backpack('Medium',"White", "1.95 kg", "Leather", 4, 6, 10500)
 
 print("Details of versace Backpack")
-print(f'Price: {versace.price}')
+print(f'Price: {versace.cost}')
 print(f'Color: {versace.color}')
 print(f'Size: {versace.size}')
 print(f'Weight: {versace.weight}')
