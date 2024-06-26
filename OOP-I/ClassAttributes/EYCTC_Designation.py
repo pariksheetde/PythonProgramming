@@ -8,10 +8,12 @@ class S1:
         self.skill = skill
         self.rating = rating
 
-        if self.rating == 1:
-            S1.bonus = (S1.CTC * 30) / 100
-        elif self.bonus == 2:
-            S1.bonus = (S1.CTC * 20) / 100
+        # if self.rating == 1:
+        #     S1.bonus = (S1.CTC * 30) / 100
+        # elif self.bonus == 2:
+        #     S1.bonus = (S1.CTC * 20) / 100
+        # elif self.bonus == 3:
+        #     S1.bonus = (S1.CTC * 10) / 100
 
 class S2:
     CTC = 25_00_000
@@ -58,7 +60,7 @@ def calculate_payroll(list_of_employees: list):
     print("--------------------------------------------------------")
     print(f'Payroll by EY GDS: {total}')
 
-bithi = S1('IN010148166', 'Bithi', ['Databricks', 'SQL', 'PySpark'], 3)
+bithi = S1('IN010148166', 'Bithi', ['Databricks', 'SQL', 'PySpark'], 2)
 pariksheet = S3('IN010148168', 'Pariksheet', ['Databricks', 'SQL', 'Azure'], 3)
 aniket = S3('IN010148166', 'Aniket', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'], 1)
 
