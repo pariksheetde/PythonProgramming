@@ -8,12 +8,12 @@ class S1:
         self.skill = skill
         self.rating = rating
 
-        # if self.rating == 1:
-        #     S1.bonus = (S1.CTC * 30) / 100
-        # elif self.bonus == 2:
-        #     S1.bonus = (S1.CTC * 20) / 100
-        # elif self.bonus == 3:
-        #     S1.bonus = (S1.CTC * 10) / 100
+        if self.rating == 1:
+            S1.bonus = (S1.CTC * 30) / 100
+        elif self.bonus == 2:
+            S1.bonus = (S1.CTC * 20) / 100
+        elif self.bonus == 3:
+            S1.bonus = (S1.CTC * 10) / 100
 
 class S2:
     CTC = 25_00_000
