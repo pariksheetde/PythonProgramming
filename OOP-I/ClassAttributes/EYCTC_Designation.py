@@ -31,10 +31,11 @@ def calculate_payroll(list_of_employees: list):
         salary = employee.CTC + employee.bonus
         print(f'{employee.name}: {salary}')
         total += salary
+    print("--------------------------------------------------------")
     print(f'Payroll by EY GDS: {total}')
 
-bithi = S1('IN010148166', 'Bithi', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'])
-pariksheet = S2('IN010148168', 'Pariksheet', ['Databricks', 'SQL'])
+bithi = S1('IN010148166', 'Bithi', ['Databricks', 'SQL', 'PySpark'])
+pariksheet = S3('IN010148168', 'Pariksheet', ['Databricks', 'SQL', 'Azure'])
 aniket = S3('IN010148166', 'Aniket', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'])
 
 employee = [pariksheet, aniket, bithi]
