@@ -24,9 +24,9 @@ class S2:
         self.rating = rating
 
         if self.rating == 1:
-            S1.bonus = (S1.CTC * 30) / 100
+            S2.bonus = (S1.CTC * 30) / 100
         elif self.bonus == 2:
-            S1.bonus = (S1.CTC * 20) / 100
+            S2.bonus = (S1.CTC * 20) / 100
 
 class S3:
     CTC = 35_00_000
@@ -39,9 +39,9 @@ class S3:
         self.rating = rating
 
         if self.rating == 1:
-            S1.bonus = (S1.CTC * 30) / 100
+            S3.bonus = (S1.CTC * 30) / 100
         elif self.bonus == 2:
-            S1.bonus = (S1.CTC * 20) / 100
+            S3.bonus = (S1.CTC * 20) / 100
 
 # create a function that will calculate the CTC + Bonus for each employees
 # and also payroll for Ernst & Young
