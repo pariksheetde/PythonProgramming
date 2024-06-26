@@ -32,6 +32,9 @@ class S3:
 # and also payroll for Ernst & Young
 
 def calculate_payroll(list_of_employees: list):
+    """The function will calculate the salary for each employee
+    and also compute payroll that has to be paid by EY GDS 
+    """
     total = 0
     for employee in list_of_employees:
         salary = employee.CTC + employee.bonus
