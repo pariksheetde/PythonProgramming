@@ -6,11 +6,12 @@ class Backpack:
     def __init__(self):
         # we are going to create or assign a `price instance attribute` to the instance.
         # all the instances that we create of the backpack class can have an item's attribute.
-        self.items = ['Premium', 'Versatile']
+        self.items = []
 
 
 american_tourister = Backpack()
 print(f'Contents of American Tourister: {american_tourister.items}')
+print(f'Object of American Tourister: {american_tourister}')
 
 print()
 
