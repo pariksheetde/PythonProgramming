@@ -33,9 +33,10 @@ def calculate_payroll(list_of_employees: list):
         total += salary
     print(f'Payroll by EY GDS: {total}')
 
-aniket = S3('IN010148166', 'Aniket', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'])
+bithi = S1('IN010148166', 'Bithi', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'])
 pariksheet = S2('IN010148168', 'Pariksheet', ['Databricks', 'SQL'])
+aniket = S3('IN010148166', 'Aniket', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'])
 
-employee = [pariksheet, aniket]
+employee = [pariksheet, aniket, bithi]
 
 calculate_payroll(employee)
