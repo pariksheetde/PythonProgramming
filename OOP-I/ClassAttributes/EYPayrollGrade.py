@@ -66,7 +66,7 @@ def calculate_payroll(list_of_employees: list):
 
 bithi = S1('IN010148166', 'Bithi', ['Databricks', 'SQL', 'PySpark'], 1)
 pariksheet = S3('IN010148168', 'Pariksheet', ['Databricks', 'SQL', 'Azure'], 2)
-aniket = S3('IN010148166', 'Aniket', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'], 3)
+aniket = S3('IN010148166', 'Aniket', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'], 1)
 
 employee = [pariksheet, aniket, bithi]
 
