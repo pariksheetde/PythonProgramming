@@ -9,11 +9,11 @@ class S1:
         self.rating = rating
 
         if self.rating == 1:
-            S1.bonus = (S1.CTC * 30) / 100
-        elif self.bonus == 2:
-            S1.bonus = (S1.CTC * 20) / 100
-        elif self.bonus == 3:
-            S1.bonus = (S1.CTC * 10) / 100
+            self.bonus = (S1.CTC * 30) / 100
+        elif self.rating == 2:
+            self.bonus = (S1.CTC * 20) / 100
+        elif self.rating == 3:
+            self.bonus = (S1.CTC * 10) / 100
 
 class S2:
     CTC = 25_00_000
@@ -26,9 +26,11 @@ class S2:
         self.rating = rating
 
         if self.rating == 1:
-            S2.bonus = (S1.CTC * 30) / 100
-        elif self.bonus == 2:
-            S2.bonus = (S1.CTC * 20) / 100
+            self.bonus = (S2.CTC * 30) / 100
+        elif self.rating == 2:
+            self.bonus = (S2.CTC * 20) / 100
+        elif self.rating == 3:
+            self.bonus = (S2.CTC * 10) / 100
 
 class S3:
     CTC = 35_00_000
@@ -41,9 +43,11 @@ class S3:
         self.rating = rating
 
         if self.rating == 1:
-            S3.bonus = (S1.CTC * 30) / 100
-        elif self.bonus == 2:
-            S3.bonus = (S1.CTC * 20) / 100
+            self.bonus = (S3.CTC * 30) / 100
+        elif self.rating == 2:
+            self.bonus = (S3.CTC * 20) / 100
+        elif self.rating == 3:
+            self.bonus = (S3.CTC * 10) / 100
 
 # create a function that will calculate the CTC + Bonus for each employees
 # and also payroll for Ernst & Young
@@ -60,9 +64,9 @@ def calculate_payroll(list_of_employees: list):
     print("--------------------------------------------------------")
     print(f'Payroll by EY GDS: {total}')
 
-bithi = S1('IN010148166', 'Bithi', ['Databricks', 'SQL', 'PySpark'], 2)
-pariksheet = S3('IN010148168', 'Pariksheet', ['Databricks', 'SQL', 'Azure'], 3)
-aniket = S3('IN010148166', 'Aniket', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'], 1)
+bithi = S1('IN010148166', 'Bithi', ['Databricks', 'SQL', 'PySpark'], 1)
+pariksheet = S3('IN010148168', 'Pariksheet', ['Databricks', 'SQL', 'Azure'], 2)
+aniket = S3('IN010148166', 'Aniket', ['Databricks', 'Python', 'SQL', 'Java', 'PySpark'], 3)
 
 employee = [pariksheet, aniket, bithi]
 
