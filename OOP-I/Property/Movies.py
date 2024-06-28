@@ -8,6 +8,7 @@ class Movies:
         return self._rating
     
     def set_rating(self, new_rating):
+        """This method is used to modify the value of the object"""
         if new_rating >= 9 and isinstance(new_rating, float):
             self._rating = new_rating
         else:
