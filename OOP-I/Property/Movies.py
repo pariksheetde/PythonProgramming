@@ -20,7 +20,7 @@ print(f'I loved "{Godfather.title}". Rating was {Godfather.get_rating()}, Yeh I 
 print()
 
 titanic = Movies("Titanic", 7, 1997)
-print(f'I loved "{titanic.title}". Rating was {titanic._rating}. But somehow the rating is not correct')
+print(f'I loved "{titanic.title}". Rating was {titanic.get_rating()}. But somehow the rating is not correct')
 
 print("Titanic movie rating was not correct, it's per below the actual so need to update the rating \
 Let's update the rating")
