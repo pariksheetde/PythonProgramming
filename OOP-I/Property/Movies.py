@@ -11,7 +11,7 @@ class Movies:
         if new_rating >= 9 and isinstance(new_rating, float):
             self._rating = new_rating
         else:
-            return "Enter the rating greater than 9"
+            print("Enter the rating greater than 9")
 
 
 Godfather = Movies("The Godfather Part 1", 9.2, 1972)
