@@ -8,7 +8,7 @@ class Movies:
         return self._rating
     
     def set_rating(self, new_rating):
-        if new_rating >= 9:
+        if new_rating >= 9 and isinstance(new_rating, float):
             self._rating = new_rating
         else:
             return "Enter the rating greater than 9"
