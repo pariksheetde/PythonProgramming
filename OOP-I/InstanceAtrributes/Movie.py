@@ -13,3 +13,8 @@ print(f'{jurassic_park.title} was released in the year {jurassic_park.year} in {
 
 print()
 
+movies = [titanic, jurassic_park]
+for movie in movies:
+    print(movie.title, movie.year, movie.language)
+
+print()
