@@ -13,6 +13,7 @@ class Movies:
             self._rating = new_rating
         else:
             print("Enter the rating greater than 9")
+            self._rating = new_rating
 
 
 Godfather = Movies("The Godfather Part 1", 9.2, 1972)
