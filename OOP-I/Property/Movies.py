@@ -15,7 +15,7 @@ class Movies:
 
 
 Godfather = Movies("The Godfather Part 1", 9.2, 1972)
-print(f'I loved "{Godfather.title}". Rating was {Godfather._rating}, Yeh I know it was released in the year {Godfather.year}')
+print(f'I loved "{Godfather.title}". Rating was {Godfather.get_rating()}, Yeh I know it was released in the year {Godfather.year}')
 
 print()
 
