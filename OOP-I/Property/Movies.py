@@ -13,7 +13,7 @@ class Movies:
         else:
             return "Enter the rating greater than 9"
 
-    
+
 Godfather = Movies("The Godfather Part 1", 9.2, 1972)
 print(f'I loved "{Godfather.title}". Rating was {Godfather._rating}, Yeh I know it was released in the year {Godfather.year}')
 
