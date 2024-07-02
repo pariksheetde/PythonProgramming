@@ -40,9 +40,11 @@ lv = Backpack()
 print(lv.items) # Returns empty list because initial list is empty
 
 # STEP 2. Add some items in the class instance
+lv.add_items('X-Mas Tree')
 lv.add_items('Tiffin Box')
 print(lv.items)
 lv.add_items('Sleeping Bag')
+
 print(lv.items)
 
 # STEP 3. Check if the item is available
@@ -50,6 +52,6 @@ lv.has_item('Lunch Box')
 
 # STEP 4. Let's remove some item
 lv.remove_item('Cosmetic Box')
-print(f'{lv.items} have been loaded in the backpack')
+print(f'{sorted(lv.items)} have been loaded in the backpack')
 
 print()
