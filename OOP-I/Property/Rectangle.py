@@ -23,26 +23,20 @@ class Rectangle:
     length = property(get_length, set_length)
     width = property(get_width, set_width)
 
+# create a new instance, xmas
 xmas = Rectangle(10, 11)
-print(f'Original Length: {xmas.get_length()}')
+print(f'Original Length & Width: {xmas.get_length()}, {xmas.get_width()}')
 xmas.set_length(12)
-print(f'Updated Length: {xmas.get_length()}')
-
-print()
-
-print(f'Original Width: {xmas.get_width()}')
 xmas.set_width(6)
-print(f'Updated Length: {xmas.get_width()}')
+print(f'Updated Length & Width: {xmas.get_length()}, {xmas.get_width()}')
 
 print()
 
-xmas = Rectangle(5, 7)
-print(f'Original Length: {xmas.length}')
-xmas.set_length(9)
-print(f'Updated Length: {xmas.length}')
+# create a new instance, ymas
+ymas = Rectangle(5, 7)
+print(f'Original Length & Width: {ymas.length}, {ymas.width}')
+ymas.length = 9
+ymas.width = 6
+print(f'Updated Length: {ymas.length}, {ymas.width}')
 
 print()
-
-print(f'Original Width: {xmas.width}')
-xmas.set_width(6)
-print(f'Updated Length: {xmas.width}')
