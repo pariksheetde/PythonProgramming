@@ -13,6 +13,7 @@ class Movies:
             self._rating = new_rating
         else:
             print("Enter the rating greater than 9")
+            self._rating = new_rating
 
 
 Godfather = Movies("The Godfather Part 1", 9.2, 1972)
@@ -25,7 +26,7 @@ print(f'I loved "{titanic.title}". Rating was {titanic.get_rating()}. But someho
 
 print("Titanic movie rating was not correct, it's per below the actual so need to update the rating \
 Let's update the rating")
-titanic.set_rating(9.5)
+titanic.set_rating(1)
 print(f'New rating for {titanic.title}: {titanic.get_rating()}')
 
 print()
