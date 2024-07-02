@@ -34,6 +34,13 @@ class Backpack:
         else:
             print(f"{item} has not been added in the backpag")
 
+    def sorted_items(self, sorted_list=False):
+        if sorted_list:
+            return(sorted(self._items))
+            
+        else:
+            return(self._items)
+
 # STEP 1. Create an instance of a class
 lv = Backpack()
 
@@ -52,6 +59,12 @@ lv.has_item('Lunch Box')
 
 # STEP 4. Let's remove some item
 lv.remove_item('Cosmetic Box')
-print(f'{sorted(lv.items)} have been loaded in the backpack')
+print(f'{lv.items} have been loaded in the backpack')
 
 print()
+
+print("Not Sorted")
+print(lv.sorted_items())
+
+print("Sorted")
+print(lv.sorted_items(True))
