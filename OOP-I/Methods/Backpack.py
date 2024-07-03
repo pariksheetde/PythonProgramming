@@ -63,8 +63,8 @@ print(f'{lv.items} have been loaded in the backpack')
 
 print()
 
-print("Not Sorted")
+print("Before Sorted")
 print(lv.sorted_items())
 
-print("Sorted")
+print("After Sorted")
 print(lv.sorted_items(True))
