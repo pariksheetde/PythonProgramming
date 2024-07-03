@@ -8,13 +8,19 @@ class Player:
         self.y_axis += change
 
     def move_down(self, change=5):
-        self.y_axis -= change
+        if not change <= 0:
+            self.y_axis -= change
+        else:
+            print('Cann\'t be less than 0')
 
     def move_right(self, change=2):
         self.x_axis += change
 
     def move_left(self, change=2):
-        self.x_axis -= change
+        if change <= 0:
+            print('Cann\'t be less than 0')
+        else:
+            self.x_axis -= change
 
 # create an instance of class
 gary = Player(5, 10)
