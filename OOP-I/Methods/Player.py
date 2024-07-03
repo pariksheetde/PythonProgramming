@@ -18,18 +18,26 @@ class Player:
 
 # create an instance of class
 gary = Player(5, 10)
+print("-------------------------------------------------------------------------")
 print(f'Orginal X-Coordinate: {gary.x_axis}, Orginal Y-Coordinate: {gary.y_axis}')
+print("-------------------------------------------------------------------------")
 
-# move_up(), move_down()
+
+print("Modifying Y-Coordinate")
 gary.move_up(8)
+print("After Change(+) in Y-Corodinate")
+print(f'Updated Y-Coordinate: {gary.x_axis}, Updated Y-Coordinate: {gary.y_axis}')
+print("After Change(-) in Y-Corodinate")
 gary.move_down(2)
-print(f'Updated X-Coordinate: {gary.x_axis}, Updated Y-Coordinate: {gary.y_axis}')
+print(f'Updated Y-Coordinate: {gary.x_axis}, Updated Y-Coordinate: {gary.y_axis}')
 
-# print()
+print("-------------------------------------------------------------------------")
 
-# move_right(), move_left()
-print("TEST")
-print(gary.x_axis, gary.y_axis)
+print(f'Orginal X-Coordinate: {gary.x_axis}, Orginal Y-Coordinate: {gary.y_axis}')
+print("Modifying X-Coordinate")
 gary.move_right(1.25)
+print(f'Updated X-Coordinate: {gary.x_axis}, Updated Y-Coordinate: {gary.y_axis}')
 gary.move_left(4.75)
 print(f'Updated X-Coordinate: {gary.x_axis}, Updated Y-Coordinate: {gary.y_axis}')
+
+print()
