@@ -13,9 +13,13 @@ class Backpack:
     def items(self):
         return self._items
     
+    def add_multiple_items(self, items:list):
+        for item in items:
+            self.add_items(item)
+    
     def add_items(self, item):
         if isinstance(item, str):
-            self._items.append(item)
+            self._items.extend([item])
         else:
             print("Invalid list of Items")
 
@@ -68,3 +72,10 @@ print(lv.sorted_items())
 
 print("After Sorted")
 print(lv.sorted_items(True))
+
+print('--------------------------------')
+
+dg = Backpack()
+print(f'Dolce & Gabbana: {dg.items}')
+dg.add_multiple_items(['Sunglass', 'Medicine'])
+print(f'Dolce & Gabbana: {dg.items}')
