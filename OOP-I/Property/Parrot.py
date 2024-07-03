@@ -1,6 +1,7 @@
 class Parrot:
 
     AVAILABLE_COLORS = ["Red", "Yellow", "Green"]
+    
     def __init__(self, color, can_talk):
         self._color = color
         self.can_talk = can_talk
