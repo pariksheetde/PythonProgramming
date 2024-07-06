@@ -7,22 +7,24 @@ class Circle:
         self._color = color
 
     def get_radius(self):
-        """This method is used to get the value of the object"""
+        """This method acts as getter, is used to get the value of the object"""
         return self._radius
     
     def set_radius(self, new_radius):
-        """This method is used to modify the value of the object"""
+        """This method acts as setter, is used to modify the value of the object"""
         if isinstance(new_radius, int) and new_radius > 0:
             self._radius = new_radius
         else:
             print("Invalid Radius.....")
 
     def get_color(self):
-        """This method is used to get the value of the object"""
+        """This method is used to get the value of the color attribute"""
         return self._color
     
     def set_color(self, new_color):
-        """This method is used to modify the value of the object"""
+        """This method is used to modify the value of the color attribute. If the color being modified is not obtained from
+        list of available colors, will throw error
+        """
         if new_color in Circle.VALID_COLORS:
             self._color = new_color
         else:
