@@ -121,7 +121,7 @@ class DiceGame:
         print(f"Computer Counter: {self._computer.counter}")
 
     def welcome(self):
-        print("----- New Round -----")
+        print("\n----- New Round -----")
         input("Press any key to roll the dice! ")
 
     def show_dice(self, player_value, computer_value):
@@ -145,9 +145,11 @@ class DiceGame:
         
     def show_game_over(self, winner):
         if winner.is_computer:
+            print(f"\n------------------------------------")
             print("GAME OVER")
             print("Computer Won the Game")
         else:
+            print(f"\n------------------------------------")
             print("GAME OVER")
             print("You Won the Game. Congrats..........")
 
