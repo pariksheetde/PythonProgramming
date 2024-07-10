@@ -5,7 +5,7 @@ class Teacher:
         self.id = id
 
     def greetings(self):
-        print(f"Welcome to my class. I am your teacher. My name is {self.full_name}")
+        return(f"Welcome to my class. I am your teacher. My name is {self.full_name}")
 
 class ScienceTeacher(Teacher):
 
@@ -14,7 +14,10 @@ class ScienceTeacher(Teacher):
         self.subject = subject
 
     def greetings(self):
-        print(f"I am your science teacher. My name is {self.full_name}")
+        # print(f'Calling Superclass\'s \'greeting()\': {Teacher.greetings(self)}')
+        print(f'Calling Superclass\'s \'greeting()\': {super().greetings()}')
+        return(f"I am your science teacher. Science is amazing. My name is {self.full_name}")
+        
 
 print()
 print("Let's display Science Teacher's Biodata")
