@@ -5,7 +5,7 @@ class Teacher:
         self.id = id
 
     def greetings(self):
-        print(f"Welcome to my class. My name is {self.full_name}")
+        print(f"Welcome to my class. I am your teacher. My name is {self.full_name}")
 
 class ScienceTeacher(Teacher):
 
