@@ -1,0 +1,5 @@
+1. Sequence is an ordered collection of items
+2. The word `ordered` means the elements can be refered by the index position
+3. In Python, anything that be iterated is iterable
+4. All sequences can be iterated, like string, list, tuple
+5. But, all iterables are not sequences. We can use for loop over dictionary, but dictionary is not sequence
