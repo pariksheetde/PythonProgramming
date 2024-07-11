@@ -21,9 +21,9 @@ else:
 print()
 
 river = "Mississippi"
-print(f'Count of \'s\' in {river}: {river.count("s")}')
-print(f'Count of \'ss\' in {river}: {river.count("ss")}')
-print(f'Count of \'ssi\' in {river}: {river.count("ssi")}')
-print(f'Count of \'issi\' in {river}: {river.count("issi")}')
+print(f"Count of 's' in {river}: {river.count('s')}")
+print(f"Count of 'ss' in {river}: {river.count('ss')}")
+print(f"Count of 'ssi' in {river}: {river.count('ssi')}")
+print(f"Count of 'issi' in {river}: {river.count('issi')}")
 
 print()

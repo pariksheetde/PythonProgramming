@@ -12,10 +12,14 @@ computer_parts = [
     "Mouse",
     "Mouse Mat"
 ]
-for values in computer_parts:
-    print(values)
-print(f'Last Item I purchased: {computer_parts[len(computer_parts) - 1]}')
-print(f'Items I purchased in reverse order: {computer_parts[::-1]}')
+
+for value in computer_parts:
+    print(value)
+    
+print(f'Last product I purchased: {computer_parts[-1]}')
+print(f'Last product I purchased: {computer_parts[len(computer_parts) - 1]}')
+print(f'First 3 products I purchased: {computer_parts[0:3]}')
+print(f'Products I purchased from backward: {computer_parts[::-1]}')
 
 print()
 
@@ -27,16 +31,22 @@ shopping_cart = [
     "Bread",
     "Rice"
 ]
+
 anoher_shopping_cart = shopping_cart
 print(f'ID of "Shopping Cart": {id(shopping_cart)}')
 print(f'ID of "Another Shopping Cart": {id(anoher_shopping_cart)}')
+
 if id(shopping_cart) == id(anoher_shopping_cart):
     print("Woh! The address is same")
 else:
     print("Hmm!. The address didn't match")
 
+print()
+
 # Let's add a new element to the shopping cart
 shopping_cart.append("Cookies")
+shopping_cart += ["Butter"]
+
 print(shopping_cart)
 print(anoher_shopping_cart)
 
