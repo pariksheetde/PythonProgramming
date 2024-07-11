@@ -26,6 +26,6 @@ while current_choice != '0':
         print("6. hdmi")
         print("0. to finish")
     current_choice = input()
-    print(f'{computer_parts} added to your cart')
+print(f'{computer_parts} added to your cart')
 
 print()
