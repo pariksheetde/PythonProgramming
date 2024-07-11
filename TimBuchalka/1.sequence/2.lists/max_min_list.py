@@ -18,3 +18,14 @@ lst = [8, 9, 11, 4, 6, 3, 2, 10, 1, 7]
 print(sorted(lst))
 
 print()
+
+marks = [2, 4, 6, 8, 10]
+grades = [1, 3, 5, 7, 9, 11]
+empty_lst = []
+
+numbers = marks + grades
+numbers.sort()
+print(f'Sorted using `sort()`: {numbers}')
+
+print()
+
