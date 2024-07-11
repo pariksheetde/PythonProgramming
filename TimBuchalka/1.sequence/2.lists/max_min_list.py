@@ -13,3 +13,8 @@ print(f"Lenth of even: {len(even)}")
 print(f"Lenth of odd: {len(odd)}")
 
 print()
+
+lst = [8, 9, 11, 4, 6, 3, 2, 10, 1, 7]
+print(sorted(lst))
+
+print()

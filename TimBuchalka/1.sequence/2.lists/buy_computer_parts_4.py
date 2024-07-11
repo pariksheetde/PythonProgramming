@@ -24,7 +24,7 @@ while current_choice != '0':
         else:
             print(f'Adding {current_choice}')
             computer_parts.append(chosen_part)
-        print(f"Your cart now contains: {chosen_part}")
+        print(f"Your cart now contains: {sorted([chosen_part])}")
     else:
         print("Add option from below list")
         for index, part in enumerate(available_parts):
