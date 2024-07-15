@@ -29,3 +29,14 @@ print(f'Sorted using `sort()`: {numbers}')
 
 print()
 
+eval = [2, 4, 6, 8]
+noeval = [1, 3, 5, 7, 9]
+
+lst = (eval + noeval)
+print(f'After concatenation: {lst}')
+
+nested_lst = (eval, noeval)
+print(f"Creating Nested List: {nested_lst}")
+
+print()
+
